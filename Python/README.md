@@ -1,7 +1,7 @@
 [TOC]
 
 ## Как создать витруальное окружение для Python на Windows 10
-#### Перейти к терминалу andconda Шаг 1
+##### Перейти к терминалу andconda Шаг 1
 
 ` pip3 install -U pip virtualenv `
 ##### Шаг 2
