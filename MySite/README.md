@@ -1,0 +1,10 @@
+## Site working
+##### 1. Lnading "strikingly.com"
+
+` http://site-1891240-7832-3824.strikingly.com/ `
+##### 2. WorldPress site
+
+` http://skaylife.zzz.com.ua/ `
+##### 3. Shop with android market "websites.co.in" 
+
+` https://skaylife.websites.co.in/ `
