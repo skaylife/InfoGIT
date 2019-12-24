@@ -14,6 +14,10 @@
 ` .\venv\Scripts\activate `
 
 ## Как установить Dajngo 
+##### install Django
 `pip install Django`
-
+##### Создание проекта на Django 
 `django-admin startproject mysite`
+##### Запуск сервера 
+`python manage.py runserver`
+
