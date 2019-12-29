@@ -20,4 +20,8 @@
 `django-admin startproject mysite`
 ##### Запуск сервера 
 `python manage.py runserver`
+##### Для linux 
+`python -m pip install --user google-assistant-sdk[samples]`
+##### Для linux если есть ошибки
+`python3 -m pip install --user google-assistant-sdk[samples]`
 
