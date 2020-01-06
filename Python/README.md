@@ -25,7 +25,7 @@
 ##### Для linux если есть ошибки
 `python3 -m pip install --user google-assistant-sdk[samples]`
 
-## установка PyQt5 и env 
+## Установка PyQt5 и env 
 ##### install Env 
 `virtualenv env`
 ##### activate Env 
