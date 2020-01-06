@@ -25,3 +25,15 @@
 ##### Для linux если есть ошибки
 `python3 -m pip install --user google-assistant-sdk[samples]`
 
+## установка PyQt5 и env 
+##### install Env 
+`virtualenv env`
+##### activate Env 
+`env\Scripts\activate` run
+##### install PyQt5
+`pip install pyqt5 pyqt5-tools` если не работает то `pip3 install pyqt5==5.12.0`
+##### Установка PyQT5 Disenger  
+`pip install pyqt5-tools`
+`NAME PROJECT\env\Lib\site-packages\pyqt5_tools\Qt\bin`
+##### Конвертируем UI в PY
+`python -m PyQt5.uic.pyuic -x visual.ui -o visual.py`
