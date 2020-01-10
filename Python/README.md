@@ -37,6 +37,14 @@
 `NAME PROJECT\env\Lib\site-packages\pyqt5_tools\Qt\bin`
 ##### Конвертируем UI в PY
 `python -m PyQt5.uic.pyuic -x visual.ui -o visual.py`
+
+
 ## Tkinter Информация к изучению
-##### install Env 
-#####1 `https://pythoner.name/documentation/library/tkinter`
+##### tkinter - интерфейс Python к Tcl/Tk 
+1 `https://pythoner.name/documentation/library/tkinter` ru
+##### Курс по библиотеке Tkinter языка Python
+2 `https://goo-gl.su/Xxnmrp` ru
+##### Python GUI Examples (Tkinter Tutorial)
+3 `https://likegeeks.com/python-gui-examples-tkinter-tutorial/` en
+##### Примеры разметки в Tkinter [Урок №2]
+4 `https://python-scripts.com/tkinter-layout-example` ru
