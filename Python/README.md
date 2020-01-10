@@ -37,3 +37,6 @@
 `NAME PROJECT\env\Lib\site-packages\pyqt5_tools\Qt\bin`
 ##### Конвертируем UI в PY
 `python -m PyQt5.uic.pyuic -x visual.ui -o visual.py`
+## Tkinter Информация к изучению
+##### install Env 
+#####1 `https://pythoner.name/documentation/library/tkinter`
