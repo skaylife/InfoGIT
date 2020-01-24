@@ -28,7 +28,9 @@
 #### Вы можете сохранить изменения в рабочем кталоге перед мержем:
 Заливаем проект на github
 ` git stash save `
+
 ` git merge origin/master `
+
 ` git stash pop `
 
 
