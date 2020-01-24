@@ -1,10 +1,26 @@
-## Monitor info
-##### 1. Библиотеки
+## Как работать с gitHub
+##### 1. Инициализируем папку"
 
-PyFladesk 1.1  ` pip install PyFladesk ` 
-##### 2. Pyintaller Билд из py to exe
+` git init `
+##### 2. Создаем нужные файлы или добавляем существуеющие
+Только один:
+` git add name.py ` 
 
-Windows:
-` pyinstaller -w -F --add-data "templates;templates" --add-data "static;static" app.py `
-Linux: 
-` pyinstaller -w -F --add-data "templates:templates" --add-data "static:static" app.py `
+Добавить для отслеживание github
+`git add .`
+##### 3. Проверка статуса
+Если горит всё зеленым значит все файлы отслеживаются, а если горят красным, то игнорируются
+` git status `
+##### 4. .Gitignore
+Создаём файл gitignore, можно создать через PyCharm
+` .gitignore `
+После этого списком, по дному в строчку добавляем файлы которые не хотм отселживать, и заливать на github. Также можно писать название папок
+##### 5. Создаём коментарий измений или инициализации
+` git commit -m "Add README" `
+##### 6. Создаём репозиторий, куда мы хотим сохранить проект 
+После этого ищем информацию о добавление на удаленный репозиторий
+сылка для залива проекта
+` git remote add origin https://github.com/skaylife/FlaskAplication.git `
+##### 7. Создаём репозиторий, куда мы хотим сохранить проект 
+Заливаем проект на github
+` git push -u origin master `
