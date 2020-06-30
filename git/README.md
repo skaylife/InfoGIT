@@ -40,7 +40,7 @@
 ` git stash pop `
 
 
-#### Пример до залива проекта 
+## Пример до залива проекта 
 Добавляем файлы в списке ` .gitignore `
 
 ` git rm --cached 'git ls-files -i --exclude-from=.gitignore' `
