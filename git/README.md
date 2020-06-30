@@ -35,3 +35,23 @@
 ` git stash pop `
 
 
+#### Пример до залива проекта 
+
+` git rm --cached 'git ls-files -i --exclude-from=.gitignore' `
+` git rm -rf --cached . `
+` git commit -m "Commit" `
+` git status  `
+` git add . `
+` git remote set-url origin https://git@github.com/skaylife/FlaskAplication.git `
+` git checkout -b Final_Version `
+` git push origin Final_Version `
+
+
+
+
+ 
+
+
+
+
+
