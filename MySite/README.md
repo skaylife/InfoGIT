@@ -8,3 +8,6 @@
 ##### 3. Shop with android market "websites.co.in" 
 
 ` https://skaylife.websites.co.in/ `
+
+##### 4. Information-coronovirus
+` https://corona-virus-ru.netlify.app/ `
