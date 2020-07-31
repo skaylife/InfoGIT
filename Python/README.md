@@ -65,18 +65,19 @@
 `db = SQLAlchemy(app)` 
 ##### Пример работы с SQlite3 
 `
-
 class BlogPost(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(50))
     subtitle = db.Column(db.String(50))
     author = db.Column(db.String(20))
     date_posted = db.Column(db.DateTime)
-    content = db.Column(db.Text)`
+    content = db.Column(db.Text)
+    `
     
 ##### Создание роута в SQlite3 и прием данных посланных с addpost 
 `
 @app.route('/addpost', methods=['POST'])
+
 def addpost():
     title = request.form['title']
     subtitle = request.form['subtitle']
@@ -92,6 +93,7 @@ def addpost():
     
 ##### Проверка на отсутвие созданной таблицы, и созданию 
 `import os `
+
 ` 
 if __name__ == "__main__":
     if not os.path.exists('db.sqlite'):
