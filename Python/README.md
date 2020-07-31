@@ -48,3 +48,16 @@
 3 `https://likegeeks.com/python-gui-examples-tkinter-tutorial/` en
 ##### Примеры разметки в Tkinter [Урок №2]
 4 `https://python-scripts.com/tkinter-layout-example` ru
+
+## Установка SQLALCHEMY_DATABASE & SQlite3 
+##### install flask-sqlalchemy
+`pip install flask-sqlalchemy`
+##### Конструкция использваония
+`app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///mnt/C/pyt/Flask/Clean-Blog/blog.db'`
+
+`db = SQLAlchemy(app)` 
+##### Создание и Вход в SQlite3 
+`sqlite3 blog.db`
+##### Созанание таблицы SQlite3 и выход из режима 
+`.tables`
+`.exit`
