@@ -58,7 +58,9 @@
 `.tables`
 `.exit`
 ##### Конструкция использваония
-`app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///C:\\pyt\\Flask\\Clean-Blog\\blog.db'`
+`app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///C:\\pyt\\Flask\\Clean-Blog\\blog.db'` ИЛИ
+
+`app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////mnt/c/Users/antho/Documents/blog/blog.db'`
 
 `app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False` - отключение предупреждения в консоли
 
