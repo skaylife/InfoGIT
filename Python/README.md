@@ -52,12 +52,49 @@
 ## Установка SQLALCHEMY_DATABASE & SQlite3 
 ##### install flask-sqlalchemy
 `pip install flask-sqlalchemy`
-##### Конструкция использваония
-`app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///C:\\pyt\\Flask\\Clean-Blog\\blog.db'
-
-`db = SQLAlchemy(app)` 
 ##### Создание и Вход в SQlite3 
 `sqlite3 blog.db`
 ##### Созанание таблицы SQlite3 и выход из режима 
 `.tables`
 `.exit`
+##### Конструкция использваония
+`app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///C:\\pyt\\Flask\\Clean-Blog\\blog.db'`
+
+`app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False` - отключение предупреждения в консоли
+
+`db = SQLAlchemy(app)` 
+##### Пример работы с SQlite3 
+`
+
+class BlogPost(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(50))
+    subtitle = db.Column(db.String(50))
+    author = db.Column(db.String(20))
+    date_posted = db.Column(db.DateTime)
+    content = db.Column(db.Text)`
+    
+##### Создание роута в SQlite3 и прием данных посланных с addpost 
+`
+@app.route('/addpost', methods=['POST'])
+def addpost():
+    title = request.form['title']
+    subtitle = request.form['subtitle']
+    author = request.form['author']
+    content = request.form['content']
+
+    post = BlogPost(title=title, subtitle=subtitle, author=author, date_posted=datetime.now(), content=content)
+
+    db.session.add(post)
+    db.session.commit()
+
+    return redirect(url_for('index'))`
+    
+##### Проверка на отсутвие созданной таблицы, и созданию 
+`import os `
+` 
+if __name__ == "__main__":
+    if not os.path.exists('db.sqlite'):
+        db.create_all()
+    app.run(debug=True)
+`
