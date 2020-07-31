@@ -53,7 +53,7 @@
 ##### install flask-sqlalchemy
 `pip install flask-sqlalchemy`
 ##### Конструкция использваония
-`app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///mnt/C/pyt/Flask/Clean-Blog/blog.db'`
+`app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///C:\\pyt\\Flask\\Clean-Blog\\blog.db'
 
 `db = SQLAlchemy(app)` 
 ##### Создание и Вход в SQlite3 
