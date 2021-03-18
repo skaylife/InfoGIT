@@ -12,6 +12,6 @@
 ##### 4. Information-coronovirus
 ` https://corona-virus-ru.netlify.app/ `
 
-##### 5. Pochta - tailwindcss online ditor
+##### 5. Pochta - tailwindcss online editor
 ` https://play.tailwindcss.com/TVWmRAFGtL `
 ` https://www.pochta.ru/ `
