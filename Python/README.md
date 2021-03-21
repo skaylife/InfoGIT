@@ -111,5 +111,7 @@ if __name__ == "__main__":
 
 ##### Как заливать проект на HEROKU
 https://habr.com/ru/sandbox/149190/
+
 https://www.codementor.io/@ekwenugomirabel/how-to-deploy-a-django-app-on-heroku-easily-5tgv4m1hd
+
 https://developer.mozilla.org/ru/docs/Learn/Server-side/Django/Deployment
