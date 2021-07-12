@@ -73,6 +73,10 @@
 
 ` git push origin Final_Version `
 
+В Git v1.7.0, вы можете удалить удалённую ветку, используя
+
+`git push origin --delete <branchName>`
+
 
 
 
